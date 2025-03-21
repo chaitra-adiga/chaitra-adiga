@@ -403,8 +403,8 @@
         transform: translateY(-2px);
       }
 
-      /* proj Section */
-      .proj {
+      /* experience Section */
+      .experience {
         background-color: var(--light);
       }
 
@@ -1229,7 +1229,7 @@
           <ul class="nav-menu" id="navMenu">
             <li><a href="#home" class="nav-link">Home</a></li>
             <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#proj" class="nav-link">Experience</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
             <li><a href="#projects" class="nav-link">Projects</a></li>
             <li><a href="#education" class="nav-link">Education</a></li>
             <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -1244,6 +1244,9 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="container">
+        <div class="hero-img">
+          <img src="config.profileImage" alt="Chaitra Adiga" id="profileImage">
+      </div>
         <div class="hero-content animate">
           <h1 class="hero-title">
             Hi, I'm <span style="color: var(--primary)">Chaitra Adiga</span>
@@ -1294,9 +1297,6 @@
     </section>
 
     <!-- About Section -->
-     <div class="about-img">
-            <img src="config.profileImage" alt="Chaitra Adiga" id="aboutImage">
-        </div>
     <section id="about" class="about section">
       <div class="container">
         <div class="about-text">
@@ -1309,7 +1309,7 @@
           <p>
             Currently exploring Generative AI (GenAI) and working on AI-powered
             applications, including LLM-based assistants and AI-enhanced web
-            solutions. I have hands-on proj in developing and deploying AI
+            solutions. I have hands-on experience in developing and deploying AI
             models, including Django-based AI systems and computer vision
             applications.
           </p>
@@ -1375,7 +1375,7 @@
     </section>
 
     <!-- Timeline Section -->
-    <section id="proj" class="proj section">
+    <section id="experience" class="experience section">
       <div class="container">
         <div class="section-title">
           <h2>Experience</h2>
@@ -1604,7 +1604,7 @@
             <h3>Hackathon</h3>
             <div class="hackathon-item">
               <h4>Unstop Talent Park</h4>
-              <p>Ranked 1829 out of 1.5 lakh students</p>
+              <p>Ranked 1829 out of 1.5 lakh students in Code Quest</p>
               <ul>
                 <li>
                   Competed in Unstop Talent Park, ranking
@@ -1617,7 +1617,7 @@
                 </li>
                 <li>
                   Advanced to the final round, achieving a
-                  <b>top 1.4% rank</b> among all participants.
+                  <b>top 1.2% rank</b> among all participants.
                 </li>
               </ul>
             </div>
@@ -1674,7 +1674,7 @@
             </div>
             <div class="achievement-content">
               <h3 class="achievement-title">
-                Ranked 1829 out of 1,50,000 participants in Unstop Talent Park
+                Ranked 1829 out of 1,50,000 participants in Code Quest, Unstop Talent Park
                 Hackathon 2025
               </h3>
             </div>
@@ -1819,7 +1819,7 @@
         <ul class="footer-nav">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#proj">Experience</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -1865,7 +1865,6 @@
 
       // Load profile images
       document.getElementById("profileImage").src = config.profileImage;
-      // document.getElementById('aboutImage').src = config.profileImage;
 
       // Load projects
       const projectGrid = document.getElementById("projectGrid");
