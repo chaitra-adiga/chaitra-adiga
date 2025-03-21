@@ -1,0 +1,18 @@
+C:.
+│   config.js
+│   index.html
+│   README.md
+│   
+└───images
+        1.jpeg
+        2.jpeg
+        3.jpg
+        4.jpeg
+        5.jpeg
+        6.jpeg
+        7.jpeg
+        campus connect.png
+        Credit Card Fraud Detection.png
+        End-to-End Breast Cancer Detection.png
+        ingredient decoder.png
+        profile.png

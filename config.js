@@ -48,29 +48,29 @@ window.portfolioConfig = {
     projects: [
         {
             title: "Credit Card Fraud Detection System",
-            category: "Machine Learning",
+            category: "Machine Learning & Full-Stack",
             description: "A sophisticated web application built with Django that leverages machine learning to detect fraudulent credit card transactions in real-time. Combines advanced preprocessing techniques with an XGBoost model to accurately predict legitimate vs. fraudulent transactions.",
             image: "images/Credit Card Fraud Detection.png",
             tags: ["Django", "XGBoost", "Python", "Data Preprocessing", "Machine Learning", "Responsive Design"],
-            live: "https://github.com/chaitra-adiga/credit_card_fraud",
+            github: "https://github.com/chaitra-adiga/credit_card_fraud",
         },
         {
-            title: "Breast Cancer Detection System",
+            title: "Breast Cancer Detection System & Full-Stack",
             category: "Deep Learning",
             description: "Multi-output deep learning model for breast cancer detection published in IRJET. Processes both mammogram images and tabular clinical data for comprehensive diagnostics and accurate classification.",
             image: "images/End-to-End Breast Cancer Detection.png",
             tags: ["Deep Learning", "TensorFlow", "Medical Imaging", "Classification", "Research Paper"],
             paper: "https://www.irjet.net/volume12-issue2",
             paperInfo: "S.No:11",
-            live: "https://github.com/chaitra-adiga/breast_cancer_detection",
+            github: "https://github.com/chaitra-adiga/breast_cancer_detection",
         },
         {
             title: "Ingredient Decoder",
-            category: "Web Application",
+            category: "Gen AI & Full-Stack",
             description: "Web app that helps users understand what's in their food and beauty products by decoding ingredient lists. Features include barcode scanning, image upload for ingredient extraction, manual entry, and toxicity ratings for each ingredient.",
             image: "images/ingredient decoder.png",
             tags: ["Django", "Python", "Langchain", "LLMs", "AI/ML", "Barcode Scanning"],
-            live: "https://github.com/chaitra-adiga/IngredientDecoder",
+            github: "https://github.com/chaitra-adiga/IngredientDecoder",
             status: "Ongoing"
         },
         {
@@ -79,8 +79,9 @@ window.portfolioConfig = {
             description: "A comprehensive platform connecting students, faculty and administrators to streamline campus communication, resource sharing, and event management. Simplifies academic processes and enhances the campus experience.",
             image: "images/campus connect.png",
             tags: ["Python", "Django","Bootstrap","Google O-Auth","Database Management", "Responsive Design", "UX/UI"],
-            live: "https://campusconnect0.pythonanywhere.com/",
-            video: "https://www.youtube.com/watch?v=Kn4v2icKECI"
+            website: "https://campusconnect0.pythonanywhere.com/",
+            video: "https://www.youtube.com/watch?v=Kn4v2icKECI",
+            github:"https://github.com/chaitra-adiga/campus_connect"
         }
     ],
     socialMedia: {

@@ -132,7 +132,7 @@
 
       .instagram-image {
         width: 100%;
-        height: 250px;
+        height: 270px;
         overflow: hidden;
       }
 
@@ -506,10 +506,10 @@
       }
 
       .project-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        gap: 2rem;
-      }
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            gap: 2rem;
+        }
 
       .project-card {
         background: var(--light);
@@ -942,11 +942,6 @@
         }
       }
       @media (max-width: 768px) {
-        .project-grid {
-          grid-template-columns: 1fr; /* Single column on smaller screens */
-        }
-      }
-      @media (max-width: 768px) {
         .video-item {
           min-width: 300px;
         }
@@ -1016,12 +1011,9 @@
         .education-grid {
           grid-template-columns: 1fr;
         }
-
         .project-grid {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr); /* Change this to 2 columns */
-          gap: 2rem;
-        }
+                grid-template-columns: 1fr;
+            }
       }
 
       @media (max-width: 1024px) {
@@ -1299,6 +1291,9 @@
     <!-- About Section -->
     <section id="about" class="about section">
       <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
         <div class="about-text">
           <p>
             GenerativeAI and Full Stack Developer with expertise in Django, AI
@@ -1527,7 +1522,7 @@
         <div class="section-title">
           <h2>Projects</h2>
         </div>
-        <div class="project-grid" id="projectGrid">
+        <div class="project-grid" id="projectGrid"> 
           <!-- Projects will be loaded from config.js -->
         </div>
       </div>
@@ -1536,6 +1531,9 @@
     <!-- Additional Section -->
     <section id="additional" class="additional section">
       <div class="container">
+        <div class="section-title">
+          <h2>Additional Information</h2>
+      </div>
         <!-- Mini Projects -->
         <div class="mini-projects-section">
           <h3 class="section-subtitle">My Ambitions and Vision</h3>
@@ -1874,20 +1872,25 @@
         projectCard.className = "project-card";
 
         let projectLinks = "";
-        if (project.live) {
-          projectLinks += `<a href="${project.live}" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i>Live Webapp + Architecture + Training Code + Evaluation Metrics</a>`;
-        }
         if (project.github) {
-          projectLinks += `<a href="${project.github}" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>`;
+            projectLinks += `<a href="${project.github}" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> GitHub Code
+            </a>`;
+        }
+        if (project.website) {
+            projectLinks += `<a href="${project.website}" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Website
+            </a>`;
         }
         if (project.video) {
-          projectLinks += `<a href="${project.video}" target="_blank" class="project-link"><i class="fab fa-youtube"></i> Video</a>`;
+            projectLinks += `<a href="${project.video}" target="_blank" class="project-link">
+                <i class="fab fa-youtube"></i> Demo in 1 min
+            </a>`;
         }
         if (project.paper) {
-          projectLinks += `<a href="${project.paper}" target="_blank" class="project-link"><i class="fas fa-file-alt"></i> Paper</a>`;
-        }
-        if (project.ollama) {
-          projectLinks += `<a href="${project.ollama}" target="_blank" class="project-link"><i class="fas fa-code"></i> Ollama</a>`;
+            projectLinks += `<a href="${project.paper}" target="_blank" class="project-link">
+                <i class="fas fa-file-pdf"></i> Paper
+            </a>`;
         }
 
         const tags = project.tags
@@ -2006,7 +2009,7 @@
           // Use Formspree's endpoint
           const formData = new FormData(this);
 
-          const response = await fetch("https://formspree.io/f/xldjdnoy", {
+          const response = await fetch("https://formspree.io/f/mldjjnwn", {
             method: "POST",
             body: formData,
             headers: {
