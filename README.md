@@ -111,7 +111,7 @@ I'm a passionate Generative AI and Full-Stack Developer specializing in building
 
 | Degree/Certificate | Institution | Year | Result |
 |--------------------|-------------|------|--------|
-| **BE in Information Science** | Acharya Institute of Technology, Bangalore | 2021-2025 | CGPA: 8.56 |
+| **BE in Information Science** | Acharya Institute of Technology, Bangalore | 2021-2025 | CGPA: 8.63 |
 | **Higher Secondary Education** | REVA Independent PU College, Ganganagar | 2019-2021 | 95% |
 | **Secondary Education** | Army Public School, Chandimandir | 2018 | 81% |
 
