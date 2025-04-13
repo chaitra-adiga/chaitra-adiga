@@ -9,6 +9,7 @@ I'm a passionate Generative AI and Full-Stack Developer specializing in building
 - 🧠 Deeply interested in Data Structures & Algorithms (DSA) and constantly improving problem-solving skills.
 - 🎓 Pursuing BE in Information Science from Acharya Institute of Technology (2021-2025).
 - 📫 Reach me at: chaitraworkk@gmail.com
+- 🌐 Portfolio Website - [https://chaitra-adiga.github.io/Portfolio-Website/](https://chaitra-adiga.github.io/chaitra-adiga/)
 
 
 ## 🛠️ Skills
